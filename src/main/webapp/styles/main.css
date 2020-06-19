@@ -5,7 +5,7 @@
 }
 
 body {
-	background: #434343;
+	background: #3C4959;
 	color: #FFFFFF;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 300;
@@ -21,7 +21,7 @@ ul {
  */
 .top-header {
 	align-items: center;
-	background: #DF574B;
+	background: #A65A53;
 	box-shadow: 0px 2px 10px #333333;
 	display: flex;
 	height: 60px;
@@ -38,7 +38,7 @@ ul {
 	height: 40px;
 	margin-right: 20px;
     margin-left: 10px;
-	padding-left: 9px;
+	padding-left: 9px;	
 	padding-top: 5px;
 	width: 40px;
 }
@@ -80,6 +80,7 @@ ul {
  * main header
  */
 .container>header {
+	color: #3C4959;
 	align-items: center;
 	background:
 		url('../images/background.jpg')
@@ -90,7 +91,7 @@ ul {
 }
 
 .container>header p {
-	border-left: 1px solid #FFFFFF;
+	border-left: 1px solid #A65A53;
 	font-weight: 400;
 	font-size: 2em;
 	line-height: 1em;
@@ -99,14 +100,14 @@ ul {
 }
 
 .container>header span {
-	color: #FBAF41;
+	color: #A65A53;
 }
 
 /**
  * login form
  */
 #login-form {
-	color: #624630;
+	color: #ffffff;
 	margin: 0px auto;
 	overflow: auto;
 	padding: 40px;
@@ -141,6 +142,7 @@ ul {
 
 #login-error {
 	clear: both;
+	font-weight: bold;
 	color: #990000;
 	padding-top: 10px;
 }
@@ -149,7 +151,7 @@ ul {
  * register form
  */
 #register-form {
-	color: #624630;
+	color: #ffffff;
 	margin: 0px auto;
 	overflow: auto;
 	padding: 40px;
@@ -184,6 +186,7 @@ ul {
 
 #register-result {
 	clear: both;
+	font-weight: bold;
 	color: #990000;
 	padding-top: 10px;
 }
@@ -192,7 +195,7 @@ ul {
  * main section
  */
 .main-section {
-	background: #F3BB43;
+	background: #6F8ABF;
 }
 
 /**
@@ -204,7 +207,7 @@ ul {
 }
 
 .nav-icon {
-	color: #624630;
+	color: #3C4959;
 	padding: 20px;
 	text-align: center;
 }
@@ -224,12 +227,12 @@ ul {
 
 .main-nav-btn:hover {
 	background: rgba(255, 255, 255, 0.8);
-	color: #624630;
+	color: #3C4959;
 }
 
 .main-nav-btn.active {
-	background: #F2EBD9;
-	color: #624630;
+	background: #F2F0F0;
+	color: #3C4959;
 }
 
 .main-nav-btn i {
@@ -240,8 +243,8 @@ ul {
  * item list
  */
 #item-list {
-	background: #F2EBD9;
-	color: #624630;
+	background: #F2F0F0;
+	color: #3C4959;
 	list-style: none;
 	margin-left: 180px;
 	min-height: 250px;
@@ -288,7 +291,7 @@ ul {
 }
 
 .item-name {
-	color: #624630;
+	color: #3C4959;
 	font-weight: 400;
 	text-decoration: none;
 }
@@ -325,7 +328,7 @@ ul {
  * footer section
  */
 footer {
-	background: #434343;
+	background: #3C4959;
 	font-size: 0.8em;
 	height: 200px;
 	position: relative;
